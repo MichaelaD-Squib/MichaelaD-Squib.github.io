@@ -1,0 +1,4 @@
+/* sets bullet points as squares for list of facts*/
+.facts {
+    list-style-type: square;
+}

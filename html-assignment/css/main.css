@@ -1,21 +1,43 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+    nav{
+        position:sticky;
+        font-size: 18px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color:aliceblue;
+        background-size: contain;
+    }
 
-header{
-    color: blueviolet;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    .wrapper{
+        width: 1020px;
+    }
+    header{
+        color: blueviolet;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
 
-h1,h2{
-    color: darkblue;
-    font-family: 'Times New Roman', Times, serif;
-}
+    h1{
+        color: darkblue;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
 
-h3{
-    color: fuchsia;
-}
+    h2{
+        font-size: 32px;
+        color:hotpink;
+    }
 
-.colourful{
-    color: darkorchid;
-}
+    h3{
+        color:deeppink;
+        font-size: 26px;
+    }
+
+    h4{color: #904;
+        font-size: 28px;
+
+    }
+
+    .colourful{
+        color: darkorchid;
+    }

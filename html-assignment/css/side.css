@@ -2,9 +2,11 @@ body{
     background-color:darkslateblue;
     color: azure;
 }
+
 saferaving{
     size: 50%;
 }
+
 nav{
     position:sticky;
     font-size: 18px;

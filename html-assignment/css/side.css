@@ -1,0 +1,64 @@
+body{
+    background-color:darkslateblue;
+    color: azure;
+}
+saferaving{
+    size: 50%;
+}
+nav{
+    position:sticky;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: aliceblue;
+}
+
+h1{
+    color:deepskyblue;
+    font-size: 45px;
+    position: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+table{
+    position:relative;
+    border-collapse:separate;
+    caption-side:top;
+    width: 90%;
+    column-gap: 150px;
+}
+
+caption{
+    color:hotpink;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 10px;
+}
+
+thead{
+    font-size: 30px;
+    color:plum;
+    font-weight: 250;
+    line-height: 16px;
+}
+
+tbody{
+    align-content:space-between;
+    font-size: 22px;
+    height: 18px;
+}
+
+th{
+    align-self:baseline;
+    font-size: 26px;
+    padding: 10px;
+}
+
+td{
+    padding: 20px;
+    font-size: 20px;
+    width: 18px;
+}
+
+tr{
+    padding-top: 50%;
+}

@@ -3,10 +3,6 @@ body{
     color: azure;
 }
 
-saferaving{
-    size: 50%;
-}
-
 nav{
     position:sticky;
     font-size: 18px;
@@ -17,7 +13,6 @@ nav{
 h1{
     color:deepskyblue;
     font-size: 45px;
-    position: center;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 

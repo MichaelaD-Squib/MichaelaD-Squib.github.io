@@ -3,11 +3,12 @@ body{
     color: azure;
 }
 
-nav{
+nav a{
     position:sticky;
     font-size: 18px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: aliceblue;
+    text-decoration: none;
 }
 
 h1{

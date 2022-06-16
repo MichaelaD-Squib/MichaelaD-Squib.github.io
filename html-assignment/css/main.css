@@ -3,7 +3,7 @@ body {
     font-size: 18px;
 }
 
-    a:hover {
+    nav a:hover {
         background-color: forestgreen;
     }
     nav a{

@@ -12,7 +12,7 @@ body {
         background-size: contain;
         
     }
-/*uses id selector to stylizes Safe Raving image and adds/stylizes box shadow to it*/
+
     #my-image {
         width: 500px;
         height: 500px;
@@ -22,7 +22,7 @@ body {
     .wrapper {
         width: 1020px;
     }
-/*multiple selector adds background to header and footer*/
+
     header,footer {
         background-color: rgb(196, 118, 196);
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -31,7 +31,7 @@ body {
     header{
         font-size: 26px;
     }
-/*adds class selector to main heading and stylizes it*/
+
     h1.site-title {
         color:rgb(181, 240, 255);
         font-size: 40px;
@@ -65,12 +65,10 @@ body {
         color:darkmagenta;
     }
 
-    /*replaces circle bullets on list with square bullet points*/
     ol {
         list-style-type:square;
     }
 
-    /*nth-child selector adds background to each odd numbered list item*/
     ol li:nth-child(odd) {
         background: rgb(167, 194, 244);
     }

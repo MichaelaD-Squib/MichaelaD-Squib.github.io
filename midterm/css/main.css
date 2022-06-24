@@ -1,4 +1,40 @@
-/* sets bullet points as squares for list of facts*/
-.facts {
-    list-style-type: square;
+body{
+    background-color: #aad4cf;
 }
+.main{
+    width: 500px;
+    margin: 0 auto;
+}
+
+img{
+    width: 200px
+    float: left;
+}
+    nav{
+        height: ;
+        width: auto;
+        background-color: #D4E9E7;
+        display:block;
+        margin: auto;
+        position:inherit;
+    }
+
+    .site-title{
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    .starfacts{
+        text-emphasis:calc(4);
+    }
+
+    .wrapper,
+    .container{
+        width: 50px;
+        float: left;
+        margin: 0 auto;
+    }
+    img{
+        width: 50px;
+        float: left;
+    }

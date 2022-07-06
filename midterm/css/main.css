@@ -1,40 +1,159 @@
-body{
+html{
+    box-sizing: content-box;
     background-color: #aad4cf;
 }
-.main{
-    width: 500px;
+/*wraps all content of site*/
+.wrapper{
+    background-color: #D4E9E7;
     margin: 0 auto;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 70%;
+    height: 90%;
 }
-
-img{
-    width: 200px
-    float: left;
-}
-    nav{
-        height: ;
-        width: auto;
-        background-color: #D4E9E7;
-        display:block;
-        margin: auto;
-        position:inherit;
+/*stylizes img and site title*/
+   header h1{
+        position:absolute;
+        text-align: center;
+        top: 24%;
+        display: inline;
+        height: 100%;
+        width: 75%;
+        font-size: 90px;
+        color:ghostwhite;
+        font-weight: lighter;
     }
 
-    .site-title{
-        font-weight: 300;
-        font-size: 30px;
-    }
-
-    .starfacts{
-        text-emphasis:calc(4);
-    }
-
-    .wrapper,
-    .container{
-        width: 50px;
-        float: left;
+    header .siteheader img{
+        width: 100%;
+        height: 30%;
         margin: 0 auto;
+        border: none;
     }
-    img{
-        width: 50px;
+
+    /*Style the links inside the navigation bar*/
+    nav ol li {
+        color: black;
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        position:relative;
+        width: 100%;
+        height: 100%;
+        top: 40%;
+        right: 30%;
+        left: 10%;
+        display: inline;
+        margin: 0 auto;
+        padding-right: 120px;
+        padding-left: 100px;
+        border-right: 1px solid black;
+    }
+/*Removes text decoration from nav links*/
+    nav ol li a{
+        text-decoration: none;
+    }
+
+/*Stylizes h2*/
+    h2{
+        font-size: 60px;
+        text-align: left;
+        padding-left: 1%;
+    }
+
+    .container {
+        width: 80%;
+        height: 20%;
+        font-size: 25px;
+        margin: 0;
+        padding-left: 10px;
+    }
+
+    .container img {
+        width: 300px;
+        height: 300px;
         float: left;
+        clear: left;
+        left: 2%;
+        padding: 15px;
+        padding-bottom: 22px;
+        float: left;
+        top: 50px;
+        border-right: 20px;
+    }
+
+
+    ul li{
+        text-decoration: dotted;
+        margin: 0 auto;
+        height: 100%
+    }
+    
+    h3{
+        font-size: 40px;
+        height: 100%;
+        width: 95%;
+        margin-left: 10px;
+        padding: 2px;
+    }
+
+    .box {
+        box-sizing: border-box;
+        border: 3px;
+        border-color: black;
+    }
+    .starfacts ul{
+        font-size: 20px;
+        list-style-type: disc;
+        display: inline;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .plz,.visit{
+        height: 100%;
+        width: 100%;
+        padding-left: 10px;
+        margin: 0 auto;
+        display:block;
+        border: 6px;
+    }
+
+    .plz label{
+        display: block;
+        height: 100%;
+        width: 95%;
+    }
+
+    .formz{
+        height: 100%;
+        width: 95%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 6px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border: 80px;
+        border-color: black;
+    }
+
+    textarea{
+        padding: 6px;
+        margin-left: auto;
+    }
+
+    h4{
+        height: 100%;
+        width: 95%;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+
+    button{
+        display: block;
+    }
+
+    footer{
+        text-align: right;
+        font-size: 18px;
     }

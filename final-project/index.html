@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- box1 acts as a container for nav and searchbar-->
-    <div class="box1">
+    <div class="navbox">
         <img class="logo" src="images/logo.png" alt="Three Star Media logo">
         <ul class="topnav">
             <li><a href="#home">Home</a></li>
@@ -19,7 +19,7 @@
         </ul>
         <input type="search" placeholder="Search"> <i class="fa-solid fa-question"></i>
     </div>
-    <div class="box2">
+    <div class="bannerbox">
         <!--Banner image is background image for box2, inherits size from box2 container-->
         <img class="bannerimage" src="images/main-banner.jpg" alt="Picture of Three Star Media Office">
         <div class="banner">
@@ -98,11 +98,25 @@
         <h2>John Doe</h2>
             <h3>CEO and Co-owner</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam animi eos impedit praesentium veniam nam necessitatibus, error, deserunt, tempore adipisci quisquam veritatis? Rerum perferendis nulla quasi recusandae modi ipsa.</p>
-        <img class="bob" src="images/bob.jpg">
+        <img class="bob" src="images/bob.jpg" alt="Bob Rite">
         <h2>Bob Rite</h2>
         <!--h3 and p are children elemnts because that is the desending format to be presented-->
             <h3>CFO and Co-owner</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque ullam animi eos impedit praesentium veniam nam necessitatibus, error, deserunt, tempore adipisci quisquam veritatis? Rerum perferendis nulla quasi recusandae modi ipsa.</p>
+    </div>
+    <div class="contactform">
+        <div id="contact">
+        <h1>Contact Us</h1>
+        <h2>Send us a message</h2>
+        <form action="index.html" method="post">
+            <label for="fullname">Full Name</label>
+            <input id="fullname" type="text" name="fullname">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message</label>
+            <textarea id="message"></textarea>
+        </form>
+        </div>
     </div>
 
 </body>

@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6130 Final - Michaelad</title>
+    <link rel="stylesheet" href="css/css.main">
 </head>
 <body>
-    <!-- box1 acts as a container for nav and searchbar-->
-    <div class="navbox">
-        <img class="logo" src="images/logo.png" alt="Three Star Media logo">
-        <ul class="topnav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#team">Team</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <input type="search" placeholder="Search"> <i class="fa-solid fa-question"></i>
+<header> <!--adds blackbackground and top and bottom padding-->
+    <img class="logo" src="images/logo.png" alt="Three Star Media logo">
+    <div class="wrapper flex"> <!--created wrapper for nav content, with flex properties -->
+        <nav class="flex">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#services">Services</a>
+            <a href="#team">Team</a>
+            <a href="#contact">Contact</a>
+            <form class="form-inline">
+                <input class="form-control" type="text" placeholder="Search">
+            </form>
+        </nav>
+        <i class="fa-solid fa-question"></i>
     </div>
-    <div class="bannerbox">
-        <!--Banner image is background image for box2, inherits size from box2 container-->
-        <img class="bannerimage" src="images/main-banner.jpg" alt="Picture of Three Star Media Office">
-        <div class="banner">
-            <header> Welcome to Three Star Media</header>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt. Iusto quibusdam assumenda magni quisquam pariatur tempora recusandae vitae! Nisi culpa perferendis, placeat quae ratione ducimus laudantium omnis magnam repellendus?</p>
-            <!--creates on page button that links to contact information section-->
-            <button class="btn">Connect with us <i class="fa-solid fa-caret-right"></i></button>
-            <a href="#contact"></a>
-        </div>
+</header><!-- validated -->
+<main class="wrapper flex">
+    <div class="banner wrapper">
+        <h1> Welcome to Three Star Media</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur, sunt. Iusto quibusdam assumenda magni quisquam pariatur tempora recusandae vitae! Nisi culpa perferendis, placeat quae ratione ducimus laudantium omnis magnam repellendus?</p>
     </div>
+    <!--creates on page button that links to contact information section-->
+    <button class="btn">Connect with us <i class="fa-solid fa-caret-right"></i></button>
+    <a href="#contact"></a>
+</main><!--validated-->
     <!--creates container for about us section-->
-    <div class="aboutbox">
+<div class="aboutbox">
         <!--connects about us in nav, to about element below-->
         <div id="about">
             <!--adds about-us image to about section-->
